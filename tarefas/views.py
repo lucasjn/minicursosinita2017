@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from tarefas.models import Tarefas
 
 def hello(request):
-    return HttpResponse('Olá mundo! LucasJN')
+    return HttpResponse('Olá mundo! Lucas JN')
 
 def adicionar(nome, descricao):
     """Essa função salva a tarefa no banco de dados"""
